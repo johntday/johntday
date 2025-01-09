@@ -50,7 +50,7 @@
     "typescript": "5.7.2",
     "typescript-eslint": "8.18.2"
   },
-  "homepage": "https://github.com/colinhemphill/nextjs-resume",
+  "homepage": "https://github.com/johntday/johntday",
   "keywords": [
     "generator",
     "nextjs",
@@ -60,7 +60,7 @@
   ],
   "license": "MIT",
   "overrides": {
-    "@types/react": "19.0.1"
+    "@types/react": "19.0.2"
   },
   "scripts": {
     "build": "next build",
