@@ -20,13 +20,13 @@ export default function ContactInformation({
 
       <ul>
         <li>
-          <strong>Location:</strong> {personal.location}
-        </li>
-        <li>
           <strong>Email:</strong> {personal.email}
         </li>
         <li>
           <strong>Phone:</strong> {personal.phone}
+        </li>
+        <li>
+          <strong>Location:</strong> {personal.location}
         </li>
 
         {/* private access required */}
