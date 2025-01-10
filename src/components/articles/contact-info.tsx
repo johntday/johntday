@@ -22,6 +22,12 @@ export default function ContactInformation({
         <li>
           <strong>Location:</strong> {personal.location}
         </li>
+        <li>
+          <strong>Email:</strong> {personal.email}
+        </li>
+        <li>
+          <strong>Phone:</strong> {personal.phone}
+        </li>
 
         {/* private access required */}
         {privateInformation?.map((privateField) => (
