@@ -1,5 +1,5 @@
 ---
 achievement: Doctor of Philosophy, Physics
 organization: Purdue University
-completionYear: 1994
+completionYear: 2025
 ---
