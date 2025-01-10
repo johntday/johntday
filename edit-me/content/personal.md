@@ -3,6 +3,8 @@ givenName: John
 familyName: Day
 title: Full Stack Developer
 location: Carl Junction, MO
+email: johntday@gmail.com
+phone: 417-499-1559
 ---
 
 Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
