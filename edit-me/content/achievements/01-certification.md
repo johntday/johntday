@@ -1,7 +1,7 @@
 ---
-achievement: Switchboard Key Holder
-organization: Cerebell Pacific
-completionYear: 2015
+achievement: Azure Solutions Architect Expert
+organization: Microsoft
+completionYear: 2024
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
+Microsoft Certified: [Azure Solutions Architect Expert](https://learn.microsoft.com/api/credentials/share/en-us/johntday/ADC2BC3430DF046F?sharingId).
