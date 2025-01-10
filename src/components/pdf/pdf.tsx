@@ -306,6 +306,14 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
                 <Text>Contact Information</Text>
               </View>
               <View style={styles.flexRow}>
+                <Text style={styles.bold}>Email:</Text>
+                <Text>&nbsp;{personal.email}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Phone:</Text>
+                <Text>&nbsp;{personal.phone}</Text>
+              </View>
+              <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
               </View>
