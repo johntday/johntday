@@ -1,7 +1,7 @@
 ---
-achievement: Azure Solutions Architect Expert
+achievement: Azure Developer Associate
 organization: Microsoft
-completionYear: 2000
+completionYear: 2024
 ---
 
-Microsoft Certified: [Azure Solutions Architect Expert](https://learn.microsoft.com/api/credentials/share/en-us/johntday/ADC2BC3430DF046F?sharingId).
+Microsoft Certified: [Azure Developer Associate](https://learn.microsoft.com/api/credentials/share/en-us/johntday/E68B989E7F30A140?sharingId).
