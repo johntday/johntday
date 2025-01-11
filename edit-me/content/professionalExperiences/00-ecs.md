@@ -1,7 +1,7 @@
 ---
 organization: eCommerce Solutions, LLC
 titles:
-  - title: Full Stack Developer
+  - title: Technical Architect and Full-Stack Developer
     startDate: June 2020
 ---
 
