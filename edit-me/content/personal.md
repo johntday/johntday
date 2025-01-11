@@ -1,7 +1,7 @@
 ---
 givenName: John
 familyName: Day
-title: Full Stack Developer
+title: Technical Architect and Full Stack Developer
 location: Carl Junction, MO
 email: johntday@gmail.com
 phone: 417-499-1559
