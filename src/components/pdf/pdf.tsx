@@ -30,8 +30,8 @@ import { getAccentColor, getNeutralColor } from 'src/helpers/colors';
 import {
   fullName,
   sortedAchievements,
-  sortedProfessionalExperiences,
-} from 'src/helpers/utils';
+  sortedProfessionalExperiences, sortedProjects,
+} from 'src/helpers/utils'
 
 const theme = resumeConfig.pdfTheme;
 const albertSource = 'https://fonts.gstatic.com/s/albertsans/v1';
@@ -367,6 +367,7 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               </View>
             ))}
           </View>
+
           <View style={styles.section}>
             <View style={styles.sectionHeading}>
               <CircleGraduationCap size={fontSizes.m} />
@@ -387,21 +388,28 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               </View>
             ))}
           </View>
+
           <View style={styles.section}>
             <View style={styles.sectionHeading}>
               <CirclePaintbrush size={fontSizes.m} />
-              <Text>{additionalInfo.title}</Text>
+              <Text>Personal Project Sites</Text>
             </View>
-            <Html
-              {...htmlProperties}
-              stylesheet={{
-                ...htmlProperties.stylesheet,
-                p: { marginBottom: spacers[1] },
-              }}
-            >
-              {additionalInfo.body.html}
-            </Html>
+            {sortedProjects.map((achievement) => (
+              <View key={achievement._id}>
+                <View style={styles.itemHeading}>
+                  <Text style={styles.bold}>{achievement.achievement}</Text>
+                </View>
+                <View style={styles.itemSubheadingRow}>
+                  <BuildingColumns size={fontSizes.xxs} />
+                  <Text style={styles.itemSubheading}>
+                    {achievement.url}
+                  </Text>
+                </View>
+                <Html {...htmlProperties}>{achievement.body.html}</Html>
+              </View>
+            ))}
           </View>
+
         </View>
       </Page>
     </Document>
