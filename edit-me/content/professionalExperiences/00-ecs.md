@@ -5,7 +5,17 @@ titles:
     startDate: June 2020
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 🎉
-- Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. 🎉
+- Architecture and implementation of system integration.
+- Front-end implementation with Angular and React.
+- Create technical specifications based on business requirements.
+- Oversaw DevOps processes, CI/CD pipelines using Jenkins, and cloud deployments on Azure.
+- Collaborated with cross-functional teams in a Scrum-based agile environment to meet project milestones.
+- Reviewed Git pull requests to ensure code quality, adherence to best practices, and to identify potential issues.
+- Troubleshot and resolved complex technical issues across the development stack, ensuring minimal downtime and efficient problem-solving.
+- Break down project requirements, organize workloads, and monitor progress.
+- Identify risks and offer different approaches.
+- Define best practices and standards for development teams.
+- Mentor junior developers and architects to foster professional growth and innovation.
+- Develop and maintain comprehensive documentation for architectural frameworks and processes.
+- Implement automated testing and deployment pipelines to enhance software quality.
+- Analyze system performance metrics to identify and resolve bottlenecks efficiently.
