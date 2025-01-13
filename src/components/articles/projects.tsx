@@ -1,9 +1,9 @@
 import { Fragment, ReactNode } from 'react';
 import { PaintBrushIcon } from '@heroicons/react/24/solid';
-import AchievementItem from 'src/components/articles/achievement-item';
 import Separator from 'src/components/articles/separator';
 import SectionHeading from 'src/components/section-heading/section-heading';
 import { sortedProjects } from 'src/helpers/utils';
+import ProjectItem from './project-item.tsx'
 
 export default function Projects(): ReactNode {
   return (
@@ -18,7 +18,7 @@ export default function Projects(): ReactNode {
 
         {sortedProjects.map((project) => (
           <Fragment key={project._id}>
-            <AchievementItem key={project._id} {...project} />
+            <ProjectItem key={project._id} {...project} />
             <Separator />
           </Fragment>
         ))}
