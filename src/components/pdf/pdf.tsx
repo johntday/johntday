@@ -2,7 +2,7 @@ import { resumeConfig } from '@config/resume-config';
 import {
   PrivateField,
   ProfessionalExperience,
-  additionalInfo,
+  // additionalInfo,
   allSkills,
   personal,
 } from '@content';
