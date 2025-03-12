@@ -1,5 +1,5 @@
 ---
-achievement: Generate Research Paper via AI
+achievement: AI Deep Research
 url: https://researchers.cc
 ---
 
