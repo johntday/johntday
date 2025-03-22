@@ -13,6 +13,7 @@ import {
   StyleSheet,
   Text,
   View,
+  Link,
 } from '@react-pdf/renderer';
 import { HtmlProps } from 'node_modules/react-pdf-html/dist/types/Html';
 import { ReactNode } from 'react';
@@ -30,8 +31,9 @@ import { getAccentColor, getNeutralColor } from 'src/helpers/colors';
 import {
   fullName,
   sortedAchievements,
-  sortedProfessionalExperiences, sortedProjects,
-} from 'src/helpers/utils'
+  sortedProfessionalExperiences,
+  sortedProjects,
+} from 'src/helpers/utils';
 
 const theme = resumeConfig.pdfTheme;
 const albertSource = 'https://fonts.gstatic.com/s/albertsans/v1';
@@ -323,11 +325,11 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>LinkedIn:</Text>
-                <Text>&nbsp;johntday</Text>
+                <Text>&nbsp;<Link href={personal.linkedin}>johntday</Link></Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Github:</Text>
-                <Text>&nbsp;johntday</Text>
+                <Text>&nbsp;<Link href={personal.github}>johntday</Link></Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
@@ -413,15 +415,12 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
                 </View>
                 <View style={styles.itemSubheadingRow}>
                   <BuildingColumns size={fontSizes.xxs} />
-                  <Text style={styles.itemSubheading}>
-                    {achievement.url}
-                  </Text>
+                  <Text style={styles.itemSubheading}>{achievement.url}</Text>
                 </View>
                 <Html {...htmlProperties}>{achievement.body.html}</Html>
               </View>
             ))}
           </View>
-
         </View>
       </Page>
     </Document>

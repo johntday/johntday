@@ -32,10 +32,10 @@ export default function ContactInformation({
           <strong>Work:</strong> {personal.work}
         </li>
         <li>
-          <strong>LinkedIn:</strong> <a href={personal.location}>johntday</a>
+          <strong>LinkedIn:</strong> {personal.linkedin}
         </li>
         <li>
-          <strong>Github:</strong> <a href={personal.location}>johntday</a>
+          <strong>Github:</strong> {personal.github}
         </li>
 
         {/* private access required */}
