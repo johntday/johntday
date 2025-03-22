@@ -6,8 +6,8 @@ location: Carl Junction, MO
 email: johntday@gmail.com
 phone: 417-499-1559
 work: US Citizen
-linkedin: https://linkedin.com/in/johntday
-github: https://github.com/johntday
+linkedin: linkedin.com/in/johntday
+github: github.com/johntday
 ---
 
 John Day is a Technical Architect, Full Stack Developer and Engineer with over 20 years of professional experience in the IT industry. 

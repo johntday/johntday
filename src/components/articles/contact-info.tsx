@@ -2,6 +2,7 @@ import { PrivateField, personal } from '@content';
 import { IdentificationIcon } from '@heroicons/react/24/solid';
 import { ReactNode } from 'react';
 import SectionHeading from 'src/components/section-heading/section-heading';
+import { Link, Text } from '@react-pdf/renderer'
 
 interface ContactInformationProperties {
   privateInformation?: PrivateField[];
@@ -32,10 +33,10 @@ export default function ContactInformation({
           <strong>Work:</strong> {personal.work}
         </li>
         <li>
-          <strong>LinkedIn:</strong> {personal.linkedin}
+          <strong>LinkedIn:</strong> <a href={`https://${personal.linkedin}`}>{personal.linkedin}</a>
         </li>
         <li>
-          <strong>Github:</strong> {personal.github}
+          <strong>Github:</strong> <a href={`https://${personal.github}`}>{personal.github}</a>
         </li>
 
         {/* private access required */}

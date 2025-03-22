@@ -9,11 +9,11 @@ import {
 import {
   Document,
   Font,
+  Link,
   Page,
   StyleSheet,
   Text,
   View,
-  Link,
 } from '@react-pdf/renderer';
 import { HtmlProps } from 'node_modules/react-pdf-html/dist/types/Html';
 import { ReactNode } from 'react';
@@ -325,11 +325,11 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>LinkedIn:</Text>
-                <Text>&nbsp;<Link href={personal.linkedin}>johntday</Link></Text>
+                <Text>&nbsp;<Link href={`https://${personal.linkedin}`}>johntday</Link></Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Github:</Text>
-                <Text>&nbsp;<Link href={personal.github}>johntday</Link></Text>
+                <Text>&nbsp;<Link href={`https://${personal.github}`}>johntday</Link></Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
