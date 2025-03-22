@@ -42,6 +42,24 @@ export const Personal = defineDocumentType(() => ({
         'personal phone',
       required: true,
     },
+    work: {
+      type: 'string',
+      description:
+        'US Citizen',
+      required: true,
+    },
+    linkedin: {
+      type: 'string',
+      description:
+        'My LinkedIn url',
+      required: true,
+    },
+    github: {
+      type: 'string',
+      description:
+        'My GitHub URL',
+      required: true,
+    },
   },
 }));
 
