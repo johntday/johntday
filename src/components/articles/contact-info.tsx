@@ -2,7 +2,6 @@ import { PrivateField, personal } from '@content';
 import { IdentificationIcon } from '@heroicons/react/24/solid';
 import { ReactNode } from 'react';
 import SectionHeading from 'src/components/section-heading/section-heading';
-import { Link, Text } from '@react-pdf/renderer'
 
 interface ContactInformationProperties {
   privateInformation?: PrivateField[];
