@@ -6,7 +6,7 @@ location: Carl Junction, MO
 email: johntday@gmail.com
 phone: 417-499-1559
 work: US Citizen
-linkedin: https://www.linkedin.com/in/johntday
+linkedin: https://linkedin.com/in/johntday
 github: https://github.com/johntday
 ---
 
