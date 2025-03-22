@@ -323,11 +323,11 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>LinkedIn:</Text>
-                <Text>&nbsp;{personal.linkedin}</Text>
+                <Text>&nbsp;johntday</Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Github:</Text>
-                <Text>&nbsp;{personal.github}</Text>
+                <Text>&nbsp;johntday</Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>

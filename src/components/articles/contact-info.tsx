@@ -28,6 +28,15 @@ export default function ContactInformation({
         <li>
           <strong>Location:</strong> {personal.location}
         </li>
+        <li>
+          <strong>Work:</strong> {personal.work}
+        </li>
+        <li>
+          <strong>LinkedIn:</strong> <a href={personal.location}>johntday</a>
+        </li>
+        <li>
+          <strong>Github:</strong> <a href={personal.location}>johntday</a>
+        </li>
 
         {/* private access required */}
         {privateInformation?.map((privateField) => (
